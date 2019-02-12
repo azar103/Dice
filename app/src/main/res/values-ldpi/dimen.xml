@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_text">34dip</dimen>
+    <dimen name="size_text">20sp</dimen>
+    <dimen name="layout_margin_top">60dip</dimen>
+    <dimen name="image_height">99dip</dimen>
+    <dimen name="second_image_width">136dip</dimen>
+    <dimen name="padding_button">40dip</dimen>
+    <dimen name="width_first_button">580dip</dimen>
+    <dimen name="width_second_button">177dip</dimen>
+    <dimen name="layout_button_margin_left">70dip</dimen>
+
+</resources>

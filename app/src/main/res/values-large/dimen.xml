@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_large_text">40dip</dimen>
+    <dimen name="size_large__text">50sp</dimen>
+    <dimen name="button_large_text_size">34dip</dimen>
+    <dimen name="layout_large_margin_top">100dip</dimen>
+    <dimen name="image_large_height">140dip</dimen>
+    <dimen name="second_large_image_width">136dip</dimen>
+    <dimen name="padding_large_button">30dip</dimen>
+    <dimen name="width_large_first_button">680dip</dimen>
+    <dimen name="width_large_second_button">677dip</dimen>
+    <dimen name="layout_large_button_margin_left">120dip</dimen>
+    <dimen name="layout_large_image_margin_left">100dip</dimen>
+
+</resources>

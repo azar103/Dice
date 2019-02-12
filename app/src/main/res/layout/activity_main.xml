@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="#FF4500"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choisissez un dé"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:padding="@dimen/padding_text"
+        android:textSize="@dimen/size_text"
+        />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/layout_margin_top"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/image_height"
+                android:src="@drawable/sixdice"
+                android:layout_marginLeft="@dimen/image_margin_left"
+                />
+
+            <Button
+                android:id="@+id/activity_main_six_btn"
+                android:layout_width="@dimen/width_first_button"
+                android:layout_height="@dimen/image_height"
+                android:layout_marginLeft="@dimen/layout_button_margin_left"
+                android:background="#FF8C00"
+                android:padding="@dimen/padding_button"
+                android:textSize="@dimen/button_text_size"
+                android:text="Dé à 6 faces"
+
+
+                android:textColor="#000" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/second_image_width"
+                android:layout_height="@dimen/image_height"
+                android:src="@drawable/dicetwenty"
+                android:layout_marginLeft="@dimen/image_margin_left"
+                />
+
+            <Button
+                android:id="@+id/activity_main_twenty_btn"
+                android:layout_width="@dimen/width_second_button"
+                android:layout_height="@dimen/image_height"
+                android:layout_marginLeft="@dimen/layout_button_margin_left"
+                android:textSize="@dimen/button_text_size"
+                android:background="#FF8C00"
+                android:padding="@dimen/padding_button"
+                android:text="Dé à 20 faces"
+                android:textColor="#000" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
